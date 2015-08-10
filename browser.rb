@@ -2,7 +2,7 @@ require 'socket'
 
 host = 'localhost'
 port = 2000
-path = "/"
+path = "/index"
 
 # This is the HTTP request we send to fetch a file
 request = "GET #{path} HTTP/1.0\r\n\r\n"
